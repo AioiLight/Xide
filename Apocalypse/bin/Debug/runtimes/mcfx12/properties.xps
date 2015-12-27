@@ -1,0 +1,229 @@
+#
+# ■ Xide Property Script for MCfx12 ■
+#
+
+# ■
+# ■ システム
+# ■
+
+enum<なし,落ちるのが遅い,空中で下ボタンを押すと急降下,全速体当たりで敵を倒せる,空中の左右加速度が大きい,壁キックができる,ファイヤーボールが水平に飛ぶ,空中でもう一回ジャンプできる,速く走れる,ジャンプできない,スーパージャンプが高い,ジャンプ不可+Z/Xキーで穴掘り,ジャンプ不可+走行不可+Z/Xキーで穴掘り,8方向移動+右向き固定,4方向移動> j_tokugi=0	?[システム/主人公の特技]主人公に付加する特技
+enum<全部,左下１画面分,左下横２画面分,左下縦２画面分,左下４画面分> scroll_area=0	?[システム/スクロール範囲]スクロール可能な範囲を設定します。
+enum<星を取る,コイン全部で星出現,コイン全部で脱出ハシゴ出現> clear_type	?[システム/ステージクリア条件]ステージをクリアするために満たさなければならない条件
+bool layer_mode=false	?[システム/背景レイヤーを表示しない]背景レイヤーを表示しないようにします。
+enum<しない,する,強制> gazou_scroll		?[システム/背景画像のスクロール]背景画像のスクロールモードの切り替え
+bool easy_mode=true						?[システム/イージーモードにしない]イージーモードにしない
+str now_loading=ただいまファイルを読み込み中。しばらくお待ちください。	?[表示/起動中メッセージ]起動中に表示するメッセージ
+int time_max=300						?[システム/制限時間]クリアまでの制限時間(秒)
+enum<しない,する,強制> scroll_mode		?[システム/スクロールモード]ステージ１のスクロールモードの切り替え
+enum<しない,する,強制> scroll_mode_s	?[システム/スクロールモード(ステージ2)]ステージ２のスクロールモードの切り替え
+enum<しない,する,強制> scroll_mode_t	?[システム/スクロールモード(ステージ3)]ステージ３のスクロールモードの切り替え
+enum<しない,する,強制> scroll_mode_f	?[システム/スクロールモード(ステージ4)]ステージ４のスクロールモードの切り替え
+*int stage_max=0						?[システム/ステージ数]全ステージ数(自動セットされます)
+#int stage_kaishi=0						?[システム/開始ステージ(デバッグ用)]開始ステージ(デバッグ用のプロパティです。利用されません。)
+int score_1up_1=500						?[システム/1upする得点 1]主人公が1upする得点 1
+int score_1up_2=1000					?[システム/1upする得点 2]主人公が1upする得点 2
+*enum<順番にクリア,地図画面を利用> stage_select=0	?[システム/ステージ選択方式]ステージの選択方式(地図を作ると自動でセットされます)
+
+
+# ■
+# ■ 主人公
+# ■
+
+int j_hp=0								?[主人公/HP]主人公のHP
+int j_equip_grenade						?[主人公/グレネード装備数]グレネードの初期装備数
+int<0,1> jibun_left_shoki=2				?[主人公/初期残り人数]主人公の初期残り人数(複数マップ時有効、1以上)
+
+# ■
+# ■ 装備
+# ■
+
+enum<敵を倒せる,ブロック１を壊せる,敵を倒せてブロック１を壊せる> j_tail_type	?[装備/しっぽの特徴]しっぽ装備に付加する効果
+bool j_tail_hf=true						?[装備/しっぽの標準装備をしない]しっぽの標準装備をしない
+bool j_fire_mkf=true					?[装備/水中でファイアボールが使えるか]水中でファイアボールを使えるようにするか
+enum<グレネード(ボスを倒せる),グレネード(ボスには効かない),エネルギー砲(ボスを倒せる),エネルギー砲(ボスには効かない),プラズマ砲(ボスを倒せる),プラズマ砲(ボスには効かない)> grenade_type=0	?[装備/グレネードの種類]グレネード装備に付加する効果
+bool suberuyuka_hkf=true				?[装備/ドリルで滑る床を破壊できるか]ドリルで滑る床を破壊できるようにするかどうか
+
+# ■
+# ■ 敵
+# ■
+
+bool dengeki_mkf=true					?[敵/ピカチーの電撃が水中でも使えるか]ピカチーの電撃が水中でも使えるか
+bool yachamo_kf=true					?[敵/ヤチャモが火の粉で攻撃するか]ヤチャモが火の粉で攻撃するか
+bool airms_kf=true						?[敵/エアームズが壁に当たった時に止まるか]エアームズが壁に当たった時に止まるか
+enum<噴火,亀を投げる,ヒノララシを投げる,マリリを投げる> boss_type=1	?[敵/グラーダ攻撃パターン]グラーダ攻撃パターン
+enum<水の波動,バブル光線> boss2_type=1	?[敵/カイオール攻撃パターン]カイオール攻撃パターン
+enum<グレネード,バリアを張って体当たり,バリアを張って高速体当たり,バリアを張ってジャンプ> boss3_type=1	?[敵/センクウザ攻撃パターン]センクウザ攻撃パターン
+
+# ■
+# ■ 障害物
+# ■
+
+enum<上下移動,乗ると落ちる,ずっと乗っていると落ちる,左回り,右回り,乗れるカイオール,ジャンプ台> ugokuyuka1_type=1	?[障害物/動く床(上下移動)のタイプ]動く床(上下移動)のタイプ
+enum<左右移動,乗ると落ちる,ずっと乗っていると落ちる,左回り,右回り,乗れるカイオール,ジャンプ台> ugokuyuka2_type=1	?[障害物/動く床(左右移動)のタイプ]動く床(左右移動)のタイプ
+enum<左右移動x2,乗ると落ちる,ずっと乗っていると落ちる,左回り,右回り,乗れるカイオール,ジャンプ台> ugokuyuka3_type=1	?[障害物/動く床(左右移動x2)のタイプ]動く床(左右移動x2)のタイプ
+
+# ■
+# ■ リンク土管
+# ■
+
+enum<リンク土管,ワープ土管> dokan_mode=1					?[リンク土管/リンク土管の動作]リンク土管の動作
+string url1=http://www.t3.rim.or.jp/~naoto/naoto.html		?[リンク土管/リンク土管1の移動先]リンク土管1の移動先
+string url2=http://www.t3.rim.or.jp/~naoto/j_con/index.html	?[リンク土管/リンク土管2の移動先]リンク土管2の移動先
+string url3=http://www.t3.rim.or.jp/~naoto/naoto.html		?[リンク土管/リンク土管3の移動先]リンク土管3の移動先
+string url4=http://www.t3.rim.or.jp/~naoto/j_con/index.html	?[リンク土管/リンク土管4の移動先]リンク土管4の移動先
+
+# ■
+# ■ ショップ
+# ■
+
+string shop_name=店員さん																			?[ショップ/ショップ店員(地図)]ショップ店員(地図)
+text<3> serifu5=いらっしゃいませ。\n当店では、ＳＣＯＲＥと、アイテムを、\n交換いたします。			?[ショップ/ショップ店員セリフ1]ショップ店員セリフ1
+text<3> serifu8=本日の営業は、終了しました。\nまたのご来店を、\nこころより、お待ちしております。	?[ショップ/ショップ店員セリフ2]ショップ店員セリフ2
+
+string shop_serifu1=どれになさいますか？		?[ショップ/ショップ店員セリフその他(1)]ショップ店員セリフその他(1)
+string shop_serifu2=で、よろしいですか？		?[ショップ/ショップ店員セリフその他(2)]ショップ店員セリフその他(2)
+string shop_serifu3=はい						?[ショップ/ショップ店員セリフその他(3)]ショップ店員セリフその他(3)
+string shop_serifu4=いいえ						?[ショップ/ショップ店員セリフその他(4)]ショップ店員セリフその他(4)
+string shop_serifu5=を、装備した。				?[ショップ/ショップ店員セリフその他(5)]ショップ店員セリフその他(5)
+string shop_serifu6=ＳＣＯＲＥが、足りません。	?[ショップ/ショップ店員セリフその他(6)]ショップ店員セリフその他(6)
+string shop_item_name1=グレネード３発			?[ショップ/店にあるアイテム(1)]店にあるアイテム(1)
+int shop_item_teika1=200						?[ショップ/アイテムの値段(1)[0で無くなる]]アイテムの値段(1)[0で無くなる]
+string shop_item_name2=ジェット					?[ショップ/店にあるアイテム(2)]店にあるアイテム(2)
+int shop_item_teika2=150						?[ショップ/アイテムの値段(2)[0で無くなる]]アイテムの値段(2)[0で無くなる]
+string shop_item_name3=ドリル					?[ショップ/店にあるアイテム(3)]店にあるアイテム(3)
+int shop_item_teika3=100						?[ショップ/アイテムの値段(3)[0で無くなる]]アイテムの値段(3)[0で無くなる]
+string shop_item_name4=ヘルメット				?[ショップ/店にあるアイテム(4)]店にあるアイテム(4)
+int shop_item_teika4=100						?[ショップ/アイテムの値段(4)[0で無くなる]]アイテムの値段(4)[0で無くなる]
+string shop_item_name5=しっぽ					?[ショップ/店にあるアイテム(5)]店にあるアイテム(5)
+int shop_item_teika5=250						?[ショップ/アイテムの値段(5)[0で無くなる]]アイテムの値段(5)[0で無くなる]
+string shop_item_name6=バリア					?[ショップ/店にあるアイテム(6)]店にあるアイテム(6)
+int shop_item_teika6=80							?[ショップ/アイテムの値段(6)[0で無くなる]]アイテムの値段(6)[0で無くなる]
+string shop_item_name7=ファイヤーボール			?[ショップ/店にあるアイテム(7)]店にあるアイテム(7)
+int shop_item_teika7=80							?[ショップ/アイテムの値段(7)[0で無くなる]]アイテムの値段(7)[0で無くなる]
+string shop_item_name8=１ｕｐ					?[ショップ/店にあるアイテム(8)]店にあるアイテム(8)
+int shop_item_teika8=980						?[ショップ/アイテムの値段(8)[0で無くなる]]アイテムの値段(8)[0で無くなる]
+string shop_item_name9=制限時間増加				?[ショップ/店にあるアイテム(9)]店にあるアイテム(9)
+int shop_item_teika9=1							?[ショップ/アイテムの値段(9)[0で無くなる]]アイテムの値段(9)[0で無くなる]
+
+# ■
+# ■ メッセージ
+# ■
+
+string setumei_name=キドはかせ					?[メッセージ/説明する人(地図)]説明する人(地図)
+text<3> serifu9=よく来た。わしは、キドはかせ。\nゲームの研究をしており、みんなから、\nゲーマーと呼ばれて、慕われておるよ。	?[地図/説明する人セリフ1]説明する人セリフ1
+string setumei_menu1=なんでも、質問してくれたまえよ。	?[メッセージ/説明する人メニュー前置き]説明する人メニュー前置き
+string setumei_menu2=ファイヤーボール	?[メッセージ/説明する人メニュー1]説明する人メニュー1
+string setumei_menu3=バリア						?[メッセージ/説明する人メニュー2]説明する人メニュー2
+string setumei_menu4=ジェット					?[メッセージ/説明する人メニュー3]説明する人メニュー3
+text<3> serifu10=黄色いチューリップのアイテムと言えば、\nそう、ファイヤーボールじゃな。はなれた\n敵を攻撃できるという、大変便利なものじゃ。	?[メッセージ/説明する人セリフ2]説明する人セリフ2
+text<3> serifu11=ピンクのキノコのアイテムと言えば、そう、\nバリアじゃな。体当たりで敵を倒せるが、うっかり\nして、時間切れを忘れぬよう、注意が必要じゃ。	?[メッセージ/説明する人セリフ3]説明する人セリフ3
+text<3> serifu12=ロケットの形のアイテムと言えば、そう、ジェット\nじゃな。空中で、スペースキーを押せば、さらに\n上昇できる。燃料切れには、気を付けるのじゃぞ。	?[メッセージ/説明する人セリフ4]説明する人セリフ4
+string hitokoto1_name=浩二						?[メッセージ/一言メッセージ1 名前]一言メッセージ1 名前
+text<3> hitokoto1=今日は、いい天気だなあ、なんてね。\nプレイ画面でも、こんなセリフを、\n入れられるように、なったんだ。	?[メッセージ/一言メッセージ1 セリフ]一言メッセージ1 セリフ
+string hitokoto2_name=お姫様					?[メッセージ/一言メッセージ2 名前]一言メッセージ2 名前
+text<3> hitokoto2=ついに、ここまで来ましたね。\nゆうきの証、ミレニアム人面星が\nあなたを、待っていますよ。	?[メッセージ/一言メッセージ2 セリフ]一言メッセージ2 セリフ
+string hitokoto3_name=ザトシ					?[メッセージ/一言メッセージ3 名前]一言メッセージ3 名前
+text<3> hitokoto3=俺は、世界一になる男だ。\nぜったい、なってやるーー。\n0	?[メッセージ/一言メッセージ3 セリフ]一言メッセージ3 セリフ
+string hitokoto4_name=クリス					?[メッセージ/一言メッセージ4 名前]一言メッセージ4 名前
+text<3> hitokoto4=あたし、クリス。ペットのピカチーが、\nどこかに行っちゃったの。\nこまったわね、ぐすん。	?[メッセージ/一言メッセージ4 セリフ]一言メッセージ4 セリフ
+int door_score=800								?[地図/地図の「得点で開く扉」の基準得点(10以上)]地図の「得点で開く扉」の基準得点(10以上)
+string mes1_name=ダケシ							?[メッセージ/メッセージ1の人(地図)]メッセージ1の人(地図)
+text<3> serifu1=人の命は、お金では買えないと言われています。\nしかし、お店へ行けば、ＳＣＯＲＥで買えます。\n0	?[地図/メッセージ1の人セリフ1]メッセージ1の人セリフ1
+text<3> serifu2=時は金なりと、言われています。しかし、\nお店なら、時間も買えます。\n店員さんて、グレートですね。	?[地図/メッセージ1の人セリフ2]メッセージ1の人セリフ2
+string mes2_name=エリコ							?[メッセージ/メッセージ2の人(地図)]メッセージ2の人(地図)
+text<3> serifu3=お昼寝して、起きたら、お姫様が\nどこにもいませんの。\n困りましたわ、で、ございます。	?[地図/メッセージ2の人セリフ1]メッセージ2の人セリフ1
+text<3> serifu4=えっ？　困っているように見えませんか？\nそれは、ですねぇ、わたくしの顔は、\n生まれつき笑い顔だからで、ございます。	?[地図/メッセージ2の人セリフ2]メッセージ2の人セリフ2
+
+# ■
+# ■ 色
+# ■
+
+color backcolor=0,255,255				?[色/背景色]背景色
+color backcolor_COLOR_s=0,255,255		?[色/背景色(ステージ2)]背景色(ステージ2)
+color backcolor_COLOR_t=0,255,255		?[色/背景色(ステージ3)]背景色(ステージ3)
+color backcolor_COLOR_f=0,255,255		?[色/背景色(ステージ4)]背景色(ステージ4)
+color kaishi_COLOR=0,0,0				?[色/ステージ番号画面の背景色]ステージ番号画面の背景色
+color scorecolor_COLOR=0,0,255			?[色/文字色]文字色
+color grenade_COLOR1=255,255,255		?[色/グレネードの爆発とエネルギー砲の色1]グレネードの爆発とエネルギー砲の色1
+color grenade_COLOR2=255,255,0			?[色/グレネードの爆発とエネルギー砲の色2]グレネードの爆発とエネルギー砲の色2
+color mizunohadou_COLOR=0,32,255		?[色/水の波動(カイオールの技)の色]水の波動(カイオールの技)の色
+color firebar_COLOR1=255,0,0			?[色/ファイヤーバーの外側の色]ファイヤーバーの外側の色
+color firebar_COLOR2=255,192,0			?[色/ファイヤーバーの内側の色]ファイヤーバーの内側の色
+
+# ■
+# ■ 表示
+# ■
+
+string moji_score=SCORE					?[表示/SCORE の文字]SCORE の文字
+string moji_highscore=HIGHSCORE			?[表示/HIGHSCORE の文字]HIGHSCORE の文字
+string moji_time=TIME					?[表示/TIME の文字]TIME の文字
+string moji_jet=JET						?[表示/JET の文字]JET の文字
+string moji_grenade=GRENADE				?[表示/GRENADE の文字]GRENADE の文字
+string moji_left=LEFT					?[表示/LEFT の文字]LEFT の文字
+int moji_size=14						?[表示/文字の大きさ(8-30)]文字の大きさ(8-30)
+str j_hp_name=HP						?[表示/HPの名前]主人公のHPの表示名
+bool score_v=true						?[表示/得点の表示]得点を表示するか
+# ■
+# ■ 画像
+# ■
+
+*file filename_mapchip=mapchip.gif		?[画像/マップチップ]マップチップとして使うファイル(自動セットされます)
+file filename_haikei=haikei,gif			?[画像/ステージ1レイヤー背景ファイル]ステージ１の背景に使うファイル(背景レイヤー有効時必須)
+file filename_haikei2=haikei,gif		?[画像/ステージ1レイヤー背景ファイル]ステージ２の背景に使うファイル(背景レイヤー有効時必須)
+file filename_haikei3=haikei,gif		?[画像/ステージ1レイヤー背景ファイル]ステージ３の背景に使うファイル(背景レイヤー有効時必須)
+file filename_haikei4=haikei,gif		?[画像/ステージ1レイヤー背景ファイル]ステージ４の背景に使うファイル(背景レイヤー有効時必須)
+file filename_title=title.gif			?[画像/タイトル画面のファイル名]タイトル画面のファイル名
+file filename_ending=ending.gif			?[画像/エンディング画面のファイル名]エンディング画面のファイル名
+file filename_gameover=gameover.gif		?[画像/ゲームオーバー画面のファイル名]ゲームオーバー画面のファイル名
+*file filename_pattern=pattern.gif		?[画像/キャラクターパターンのファイル名]キャラクターパターンのファイル名(自動セットされます)
+file filename_chizu=chizu.gif			?[画像/地図画面の背景のファイル名]地図画面の背景のファイル名
+int game_speed=70						?[システム/ゲームの進行スピード(10-300,小さいほど早い)]ゲームの進行スピード(10-300,小さいほど早い)
+
+# ■
+# ■ BGM
+# ■
+
+bool fx_bgm_switch=true					?[BGM/BGMを利用をするか]BGMを利用をするか
+bool fx_bgm_loop=true					?[BGM/BGMのループ再生]BGMのループ再生
+file filename_fx_bgm_stage1=stage1.mid	?[BGM/ステージ１のBGM]ステージ１のBGM
+file filename_fx_bgm_stage2=stage2.mid	?[BGM/ステージ2のBGM]ステージ2のBGM
+file filename_fx_bgm_stage3=stage3.mid	?[BGM/ステージ3のBGM]ステージ3のBGM
+file filename_fx_bgm_stage4=stage4.mid	?[BGM/ステージ4のBGM]ステージ4のBGM
+file filename_fx_bgm_boss=boss.mid		?[BGM/ボスBGM]ボスBGM
+file filename_fx_bgm_title=title.mid	?[BGM/タイトル画面のBGM]タイトル画面のBGM
+file filename_fx_bgm_ending=ending.mid	?[BGM/エンディング画面のBGM]エンディング画面のBGM
+file filename_fx_bgm_chizu=chizu.mid	?[BGM/地図画面のBGM]地図画面のBGM
+bool se_switch=true						?[効果音/効果音の利用をするか]効果音の利用をするか
+
+# ■
+# ■ 効果音
+# ■
+
+bool se_filename=true					?[効果音/効果音のファイル名を指定するか]効果音のファイル名を指定するか
+file filename_se_start=item.au			?[効果音/ゲームスタート]ゲームスタート
+file filename_se_gameover=gameover.au	?[効果音/ゲームオーバー]ゲームオーバー
+file filename_se_clear=clear.au			?[効果音/ステージクリア]ステージクリア
+file filename_se_coin=coin.au			?[効果音/コインを取る]コインを取る
+file filename_se_get=get.au				?[効果音/アイテムを取る]アイテムを取る
+file filename_se_item=item.au			?[効果音/ハテナブロックからアイテムが出る]ハテナブロックからアイテムが出る
+file filename_se_jump=jump.au			?[効果音/ジャンプ]ジャンプ
+file filename_se_sjump=sjump.au			?[効果音/スーパージャンプ]スーパージャンプ
+file filename_se_kiki=kiki.au			?[効果音/滑る]滑る
+file filename_se_fumu=fumu.au			?[効果音/敵を踏む]敵を踏む
+file filename_se_tobasu=tobasu.au		?[効果音/ファイヤーボール等で敵を倒す]ファイヤーボール等で敵を倒す
+file filename_se_fireball=shot.au		?[効果音/ファイヤーボール発射]ファイヤーボール発射
+file filename_se_jet=mgan.au			?[効果音/ジェット]ジェット
+file filename_se_miss=dosun.au			?[効果音/自分が死んだ]自分が死んだ
+file filename_se_block=bakuhatu.au		?[効果音/ブロックを破壊]ブロックを破壊
+file filename_se_mizu=mizu.au			?[効果音/水しぶき]水しぶき
+file filename_se_dengeki=mgan.au		?[効果音/ピカチーの電撃]ピカチーの電撃
+file filename_se_happa=happa.au			?[効果音/チコリンのはっぱカッター]チコリンのはっぱカッター
+file filename_se_hinoko=ファイル名		?[効果音/ヤチャモの火の粉]ヤチャモの火の粉
+file filename_se_mizudeppo=happa.au		?[効果音/ミズタロウの水鉄砲]ミズタロウの水鉄砲
+file filename_se_bomb=shot.au			?[効果音/エアームズの爆弾]エアームズの爆弾
+file filename_se_dosun=dosun.au			?[効果音/ドッスンスンが落ちる]ドッスンスンが落ちる
+file filename_se_grounder=mgan.au		?[効果音/グラーダの噴火]グラーダの噴火
+file filename_se_kaiole=happa.au		?[効果音/カイオールの水の波動]カイオールの水の波動
+file filename_se_senkuuza=shot.au		?[効果音/センクウザのグレネード]センクウザのグレネード
+file filename_se_dokan=get.au			?[効果音/土管に入る]土管に入る
+file filename_se_chizugamen=get.au		?[効果音/地図画面からステージへ入る]地図画面からステージへ入る

@@ -1,0 +1,6 @@
+C:\Users\Karno\Documents\Visual Studio 2008\Projects\Apocalypse\Reveal\bin\Debug\Reveal.dll
+C:\Users\Karno\Documents\Visual Studio 2008\Projects\Apocalypse\Reveal\bin\Debug\Reveal.pdb
+C:\Users\Karno\Documents\Visual Studio 2008\Projects\Apocalypse\Reveal\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Users\Karno\Documents\Visual Studio 2008\Projects\Apocalypse\Reveal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Karno\Documents\Visual Studio 2008\Projects\Apocalypse\Reveal\obj\Debug\Reveal.dll
+C:\Users\Karno\Documents\Visual Studio 2008\Projects\Apocalypse\Reveal\obj\Debug\Reveal.pdb

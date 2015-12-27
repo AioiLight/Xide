@@ -1,0 +1,1073 @@
+<?xml version="1.0"?>
+<chipsdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xdpictpath="[ExtraDraw画像ファイルのパスを記述]">
+  <chips>
+    <chip str="." clr="Black">
+      <datas>
+        <data>
+          <name>空白</name>
+          <desc>何もなし</desc>
+          <loc>0,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="A" clr="Orange">
+      <datas>
+        <data>
+          <name>正男</name>
+          <desc>プレイヤー</desc>
+          <loc>0,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="B" clr="Magenta">
+      <datas>
+        <data>
+          <name>亀</name>
+          <desc>足元に空白があると向きを変える</desc>
+          <extra backdraw="false">96,0</extra>
+          <loc>0,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="C" clr="Magenta">
+      <datas>
+        <data>
+          <name>亀</name>
+          <desc>足元に空白があると落ちる</desc>
+          <loc>0,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="D" clr="Magenta">
+      <datas>
+        <data>
+          <name>亀</name>
+          <desc>足元に空白があると落ちる  ３匹連続</desc>
+          <extra backdraw="false">352,0</extra>
+          <loc>0,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="{" clr="Magenta">
+      <datas>
+        <data>
+          <name>亀</name>
+          <desc>主人公を追尾</desc>
+          <extra backdraw="false">512,0</extra>
+          <loc>0,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="E" clr="Magenta">
+      <datas>
+        <data>
+          <name>ピカチー</name>
+          <desc>電撃</desc>
+          <loc>96,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="}" clr="Magenta">
+      <datas>
+        <data>
+          <name>ピカチー</name>
+          <desc>主人公を追尾</desc>
+          <extra backdraw="false">512,0</extra>
+          <loc>96,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="F" clr="Magenta">
+      <datas>
+        <data>
+          <name>チコリン</name>
+          <desc>はっぱカッター</desc>
+          <loc>0,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="G" clr="Magenta">
+      <datas>
+        <data>
+          <name>ヒノララシ</name>
+          <desc>踏めません</desc>
+          <loc>64,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="H" clr="Magenta">
+      <datas>
+        <data>
+          <name>ポッピー</name>
+          <desc>上下移動</desc>
+          <extra backdraw="false">64,0</extra>
+          <loc>224,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="I" clr="Magenta">
+      <datas>
+        <data>
+          <name>ポッピー</name>
+          <desc>直進</desc>
+          <loc>224,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="J" clr="Magenta">
+      <datas>
+        <data>
+          <name>ポッピー</name>
+          <desc>直進　３羽連続</desc>
+          <extra backdraw="false">352,0</extra>
+          <loc>224,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="K" rel="VMovFloor" clr="Yellow">
+      <datas>
+        <data relval="1">
+          <name>動く床</name>
+          <desc>上下移動</desc>
+          <extra backdraw="false">64,0</extra>
+          <loc>0,608</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="2">
+          <name>落ちる床</name>
+          <desc>乗ると落ちる</desc>
+          <loc>0,576</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="3">
+          <name>落ちる床</name>
+          <desc>ずっと乗っていると落ちる</desc>
+          <loc>0,576</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="4">
+          <name>動く床</name>
+          <desc>左回り</desc>
+          <extra backdraw="false">256,0</extra>
+          <loc>0,608</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="5">
+          <name>動く床</name>
+          <desc>右回り</desc>
+          <extra backdraw="false">288,0</extra>
+          <loc>0,608</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="6">
+          <name>乗れるカイオール</name>
+          <desc>乗ると右へ進みます</desc>
+          <loc>256,576</loc>
+          <size>64,64</size>
+          <center>0,32</center>
+        </data>
+        <data relval="7">
+          <name>ジャンプ台</name>
+          <desc>高くジャンプできます</desc>
+          <loc>64,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="L" rel="HMovFloor" clr="Black">
+      <datas>
+        <data relval="1">
+          <name>動く床</name>
+          <desc>左右移動</desc>
+          <extra backdraw="false">96,0</extra>
+          <loc>0,608</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="2">
+          <name>落ちる床</name>
+          <desc>乗ると落ちる</desc>
+          <loc>0,576</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="3">
+          <name>落ちる床</name>
+          <desc>ずっと乗っていると落ちる</desc>
+          <loc>0,576</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="4">
+          <name>動く床</name>
+          <desc>左回り</desc>
+          <extra backdraw="false">256,0</extra>
+          <loc>0,608</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="5">
+          <name>動く床</name>
+          <desc>右回り</desc>
+          <extra backdraw="false">288,0</extra>
+          <loc>0,608</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="6">
+          <name>乗れるカイオール</name>
+          <desc>乗ると右へ進みます</desc>
+          <loc>256,576</loc>
+          <size>64,64</size>
+          <center>0,32</center>
+        </data>
+        <data relval="7">
+          <name>ジャンプ台</name>
+          <desc>高くジャンプできます</desc>
+          <loc>64,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="M" rel="DMovFloor" clr="Yellow">
+      <datas>
+        <data relval="1">
+          <name>動く床</name>
+          <desc>左右移動　2個連続</desc>
+          <extra backdraw="false">128,0</extra>
+          <loc>0,608</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="2">
+          <name>落ちる床</name>
+          <desc>乗ると落ちる</desc>
+          <loc>0,576</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="3">
+          <name>落ちる床</name>
+          <desc>ずっと乗っていると落ちる</desc>
+          <loc>0,576</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="4">
+          <name>動く床</name>
+          <desc>左回り</desc>
+          <extra backdraw="false">256,0</extra>
+          <loc>0,608</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="5">
+          <name>動く床</name>
+          <desc>右回り</desc>
+          <extra backdraw="false">288,0</extra>
+          <loc>0,608</loc>
+          <size>96,32</size>
+          <center>0,0</center>
+        </data>
+        <data relval="6">
+          <name>乗れるカイオール</name>
+          <desc>乗ると右へ進みます</desc>
+          <loc>256,576</loc>
+          <size>64,64</size>
+          <center>0,32</center>
+        </data>
+        <data relval="7">
+          <name>ジャンプ台</name>
+          <desc>高くジャンプできます</desc>
+          <loc>64,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="N" clr="Red">
+      <datas>
+        <data>
+          <name>ドッスンスン</name>
+          <desc>落ちてくる　下に空白が５ブロック必要</desc>
+          <loc>96,576</loc>
+          <size>96,64</size>
+          <center>32,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="O" clr="Magenta">
+      <datas>
+        <data>
+          <name>マリリ</name>
+          <desc>跳ねる</desc>
+          <loc>128,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="P" clr="Magenta">
+      <datas>
+        <data>
+          <name>ヤチャモ</name>
+          <desc>火の粉</desc>
+          <loc>256,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="Q" clr="Magenta">
+      <datas>
+        <data>
+          <name>ミズタロウ</name>
+          <desc>水鉄砲</desc>
+          <loc>0,512</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="R" clr="Magenta">
+      <datas>
+        <data>
+          <name>エアームズ</name>
+          <desc>爆撃</desc>
+          <loc>128,512</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="S" clr="Magenta">
+      <datas>
+        <data>
+          <name>グラーダ</name>
+          <desc>ボス　噴火</desc>
+          <loc>192,576</loc>
+          <size>64,64</size>
+          <center>0,32</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="T" clr="Magenta">
+      <datas>
+        <data>
+          <name>カイオール</name>
+          <desc>水の波動</desc>
+          <loc>256,576</loc>
+          <size>64,64</size>
+          <center>0,32</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="U" clr="Yellow">
+      <datas>
+        <data>
+          <name>ファイアーバー</name>
+          <desc>左回り</desc>
+          <extra backdraw="false">256,0</extra>
+          <loc>0,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="V" clr="Yellow">
+      <datas>
+        <data>
+          <name>ファイアーバー</name>
+          <desc>右回り</desc>
+          <extra backdraw="false">288,0</extra>
+          <loc>0,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="W" clr="Magenta">
+      <datas>
+        <data>
+          <name>タイキング</name>
+          <desc>左右移動　水中専用</desc>
+          <extra backdraw="true">224,0</extra>
+          <loc>192,512</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="X" clr="Magenta">
+      <datas>
+        <data>
+          <name>クラゲッソ</name>
+          <desc>バブル光線　水中専用</desc>
+          <extra backdraw="true">224,0</extra>
+          <loc>224,512</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="Y" clr="Magenta">
+      <datas>
+        <data>
+          <name>水草</name>
+          <desc>ただの背景</desc>
+          <loc>192,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="Z" clr="Magenta">
+      <datas>
+        <data>
+          <name>センクウザ</name>
+          <desc>ボス　グレネード</desc>
+          <loc>256,736</loc>
+          <size>64,64</size>
+          <center>0,32</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a" clr="Cyan">
+      <datas>
+        <data>
+          <name>ブロック１</name>
+          <desc>レンガ</desc>
+          <loc>0,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b" clr="Cyan">
+      <datas>
+        <data>
+          <name>ブロック２</name>
+          <desc>岩</desc>
+          <loc>32,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c" clr="Cyan">
+      <datas>
+        <data>
+          <name>ブロック３</name>
+          <desc>水色のレンガ</desc>
+          <loc>64,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d" clr="Cyan">
+      <datas>
+        <data>
+          <name>ブロック４</name>
+          <desc>鉄</desc>
+          <loc>96,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e" clr="Cyan">
+      <datas>
+        <data>
+          <name>ブロック５</name>
+          <desc>鉄の柱１</desc>
+          <loc>128,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f" clr="Cyan">
+      <datas>
+        <data>
+          <name>ブロック６</name>
+          <desc>鉄の柱２</desc>
+          <loc>160,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="g" clr="Cyan">
+      <datas>
+        <data>
+          <name>ブロック７</name>
+          <desc>土</desc>
+          <loc>192,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="h" clr="Cyan">
+      <datas>
+        <data>
+          <name>ブロック８</name>
+          <desc>城の壁</desc>
+          <loc>224,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="i" clr="Cyan">
+      <datas>
+        <data>
+          <name>ブロック９</name>
+          <desc>黄色のブロック</desc>
+          <loc>256,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="j" rel="InvisLayer" clr="Cyan">
+      <datas>
+        <data relval="false">
+          <name>通行不可ブロック</name>
+          <desc>レイヤー時は透明な壁</desc>
+          <extra backdraw="false">32,0</extra>
+          <loc>0,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+        <data relval="true">
+          <name>ブロック１０</name>
+          <desc>緑色のブロック</desc>
+          <loc>288,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="k" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック</name>
+          <desc>コイン</desc>
+          <extra backdraw="true">160,0</extra>
+          <loc>0,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="l" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック</name>
+          <desc>コイン3枚</desc>
+          <extra backdraw="true">192,0</extra>
+          <loc>0,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="m" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック[ファイアーボール]</name>
+          <desc>スペースキーでファイアーボール発射</desc>
+          <extra backdraw="true">160,0</extra>
+          <loc>64,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="n" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック[バリア]</name>
+          <desc>一定時間無敵</desc>
+          <extra backdraw="true">160,0</extra>
+          <loc>96,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="o" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック[タイム]</name>
+          <desc>制限時間延長</desc>
+          <extra backdraw="true">160,0</extra>
+          <loc>128,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="p" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック[ジェット]</name>
+          <desc>空中でスペースキーを押すと上昇</desc>
+          <extra backdraw="true">160,0</extra>
+          <loc>160,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="q" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック[ヘルメット]</name>
+          <desc>頭突きでブロック１を破壊</desc>
+          <extra backdraw="true">160,0</extra>
+          <loc>192,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="r" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック[しっぽ]</name>
+          <desc>Ｘキーで前方の敵を攻撃</desc>
+          <extra backdraw="true">160,0</extra>
+          <loc>224,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="s" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック[ドリル]</name>
+          <desc>Ｘキーで下のブロック１を破壊</desc>
+          <extra backdraw="true">160,0</extra>
+          <loc>256,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="t" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック[グレネード]</name>
+          <desc>Ｘキーで強力な弾を一発発射</desc>
+          <extra backdraw="true">160,0</extra>
+          <loc>288,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="u" clr="ForestGreen">
+      <datas>
+        <data>
+          <name>リンク土管１</name>
+          <desc>他の Web ページへ移動します</desc>
+          <loc>0,192</loc>
+          <size>64,32</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="v" clr="ForestGreen">
+      <datas>
+        <data>
+          <name>リンク土管２</name>
+          <desc>他の Web ページへ移動します</desc>
+          <loc>64,192</loc>
+          <size>64,32</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="w" clr="ForestGreen">
+      <datas>
+        <data>
+          <name>リンク土管３</name>
+          <desc>他の Web ページへ移動します</desc>
+          <loc>128,192</loc>
+          <size>64,32</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="x" clr="ForestGreen">
+      <datas>
+        <data>
+          <name>リンク土管４</name>
+          <desc>他の Web ページへ移動します</desc>
+          <loc>192,192</loc>
+          <size>64,32</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="y" clr="Cyan">
+      <datas>
+        <data>
+          <name>？ブロック[１ｕｐキノコ]</name>
+          <desc>残りの人数が１人増える</desc>
+          <extra backdraw="true">160,0</extra>
+          <loc>288,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="z" clr="Cyan">
+      <datas>
+        <data>
+          <name>すべる床</name>
+          <desc />
+          <loc>288,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="+" clr="Brown">
+      <datas>
+        <data>
+          <name>一言メッセージ１</name>
+          <desc />
+          <loc>192,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="-" clr="Brown">
+      <datas>
+        <data>
+          <name>一言メッセージ２</name>
+          <desc />
+          <loc>224,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="*" clr="Brown">
+      <datas>
+        <data>
+          <name>一言メッセージ３</name>
+          <desc />
+          <loc>256,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="/" clr="Brown">
+      <datas>
+        <data>
+          <name>一言メッセージ４</name>
+          <desc />
+          <loc>288,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="1" clr="Gray">
+      <datas>
+        <data>
+          <name>雲の左側</name>
+          <desc />
+          <loc>32,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="2" clr="Gray">
+      <datas>
+        <data>
+          <name>雲の右側</name>
+          <desc />
+          <loc>64,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="3" clr="Gray">
+      <datas>
+        <data>
+          <name>草</name>
+          <desc />
+          <loc>96,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="4" rel="InvisLayer" clr="Blue">
+      <datas>
+        <data relval="false">
+          <name>水中</name>
+          <desc>左に敵やコインを設置するとそこも水中になる レイヤー使用時は透明</desc>
+          <extra backdraw="false">224,0</extra>
+          <loc>0,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+        <data relval="true">
+          <name>水中</name>
+          <desc>左に敵やコインを設置するとそこも水中になる</desc>
+          <loc>128,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="5" clr="Red">
+      <datas>
+        <data>
+          <name>上向きのトゲ</name>
+          <desc />
+          <loc>160,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="6" clr="Red">
+      <datas>
+        <data>
+          <name>下向きのトゲ</name>
+          <desc />
+          <loc>192,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="7" clr="Gray">
+      <datas>
+        <data>
+          <name>ろうそく</name>
+          <desc />
+          <loc>192,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="8" clr="Orange">
+      <datas>
+        <data>
+          <name>星</name>
+          <desc>取るとステージクリア</desc>
+          <loc>128,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="9" clr="Orange">
+      <datas>
+        <data>
+          <name>コイン</name>
+          <desc />
+          <loc>0,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="[" rel="InvisLayer" clr="Lime">
+      <datas>
+        <data relval="false">
+          <name>下から通れるブロック</name>
+          <desc>背景レイヤー使用時は透明</desc>
+          <extra backdraw="false">416,0</extra>
+          <loc>0,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+        <data relval="true">
+          <name>下から通れるブロック</name>
+          <desc>背景レイヤー使用時は透明</desc>
+          <loc>160,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="]" rel="InvisLayer" clr="Lime">
+      <datas>
+        <data relval="false">
+          <name>ハシゴ</name>
+          <desc>背景レイヤー使用時は透明</desc>
+          <extra backdraw="false">384,0</extra>
+          <loc>0,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+        <data relval="true">
+          <name>ハシゴ</name>
+          <desc>背景レイヤー使用時は透明</desc>
+          <loc>0,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="&lt;" rel="InvisLayer" clr="Lime">
+      <datas>
+        <data relval="false">
+          <name>上り坂</name>
+          <desc>背景レイヤー使用時は透明</desc>
+          <extra backdraw="false">448,0</extra>
+          <loc>0,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+        <data relval="true">
+          <name>上り坂</name>
+          <desc>背景レイヤー使用時は透明</desc>
+          <loc>256,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="&gt;" rel="InvisLayer" clr="Lime">
+      <datas>
+        <data relval="false">
+          <name>下り坂</name>
+          <desc>背景レイヤー使用時は透明</desc>
+          <extra backdraw="false">480,0</extra>
+          <loc>0,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+        <data relval="true">
+          <name>下り坂</name>
+          <desc>背景レイヤー使用時は透明</desc>
+          <loc>288,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+  </chips>
+</chipsdef>

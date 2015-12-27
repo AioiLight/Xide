@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D09B03EB-370E-4905-A4B2-D77280BD6CEE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Apocalypse</RootNamespace>
+    <AssemblyName>Apocalypse</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Azuki, Version=1.4.3.38178, Culture=neutral, PublicKeyToken=46b77eb7f2d82aba, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Azuki.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.3.1.24483, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\Controls\ToolItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\Controls\ToolItem.Designer.cs">
+      <DependentUpon>ToolItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Forms\DockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\Forms\DocumentDockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core.cs" />
+    <Compile Include="Data\IProperty.cs" />
+    <Compile Include="Data\Runtime.cs" />
+    <Compile Include="Data\Solution.cs" />
+    <Compile Include="Definition.cs" />
+    <Compile Include="Dialogs\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Forms\Wizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\Forms\Wizard.Designer.cs">
+      <DependentUpon>Wizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Forms\WizardPageBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\Forms\WizardPageBase.Designer.cs">
+      <DependentUpon>WizardPageBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewProj\NewProjPageBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewProj\NewProjPageBase.Designer.cs">
+      <DependentUpon>NewProjPageBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewProj\NewProjPage_1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewProj\NewProjPage_1.Designer.cs">
+      <DependentUpon>NewProjPage_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewProj\NewProjPage_2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewProj\NewProjPage_2.Designer.cs">
+      <DependentUpon>NewProjPage_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewProj\NewProjPage_Finish.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewProj\NewProjPage_Finish.Designer.cs">
+      <DependentUpon>NewProjPage_Finish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewProj\NewProjWiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewProj\NewProjWiz.Designer.cs">
+      <DependentUpon>NewProjWiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewStage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewStage.Designer.cs">
+      <DependentUpon>NewStage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docks\Editor\Browser\Browser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docks\Editor\Browser\Browser.Designer.cs">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docks\Editor\Designer\Designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docks\Editor\Designer\Designer.Designer.cs">
+      <DependentUpon>Designer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docks\Editor\Designer\DesignFace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Docks\Editor\Designer\DesignFace.Designer.cs">
+      <DependentUpon>DesignFace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docks\Editor\Designer\DesignFaceRenderer.cs" />
+    <Compile Include="Docks\Editor\Text\TextEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docks\Editor\Text\TextEditor.Designer.cs">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docks\Editor\Text\TextRuler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Docks\Editor\Text\TextRuler.Designer.cs">
+      <DependentUpon>TextRuler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docks\Manage\OverView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docks\Manage\OverView.Designer.cs">
+      <DependentUpon>OverView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docks\Manage\StageProp\PropClassAsmFactory.cs" />
+    <Compile Include="Docks\Manage\StageProp\StagePropEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docks\Manage\StageProp\StagePropEditor.Designer.cs">
+      <DependentUpon>StagePropEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docks\Manage\SolutionExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docks\Manage\SolutionExplorer.Designer.cs">
+      <DependentUpon>SolutionExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docks\Manage\ToolBox\ToolBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docks\Manage\ToolBox\ToolBox.Designer.cs">
+      <DependentUpon>ToolBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Docks\Manage\ToolBox\ToolBoxPane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Docks\Manage\ToolBox\ToolBoxPane.Designer.cs">
+      <DependentUpon>ToolBoxPane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Import\FastBlt.cs" />
+    <Compile Include="Import\DisplayInformation.cs" />
+    <Compile Include="Import\ExtendedWebBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Import\MD5.cs" />
+    <Compile Include="Import\Office2007BlackColorTable.cs" />
+    <Compile Include="Import\Office2007BlueColorTable.cs" />
+    <Compile Include="Import\Office2007ColorTable.cs" />
+    <Compile Include="Import\Office2007Helpers.cs" />
+    <Compile Include="Import\Office2007Renderer.cs" />
+    <Compile Include="Import\Office2007SilverColorTable.cs" />
+    <Compile Include="Import\ProfessionalColorTable.cs" />
+    <Compile Include="Import\SaveLoadXML.cs" />
+    <Compile Include="Import\ScrollBarPlus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Import\test.cs" />
+    <Compile Include="Import\ToolStripRecorder.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\ChipData.cs" />
+    <Compile Include="Data\Map.cs" />
+    <Compile Include="Data\Project.cs" />
+    <Compile Include="MainFormMenus\MainFormDebugMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormMenus\MainFormEditMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormMenus\MainFormFileMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormMenus\MainFormViewMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dialogs\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\Forms\Wizard.resx">
+      <DependentUpon>Wizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\Forms\WizardPageBase.resx">
+      <DependentUpon>WizardPageBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewProj\NewProjPageBase.resx">
+      <DependentUpon>NewProjPageBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewProj\NewProjPage_1.resx">
+      <DependentUpon>NewProjPage_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewProj\NewProjPage_2.resx">
+      <DependentUpon>NewProjPage_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewProj\NewProjPage_Finish.resx">
+      <DependentUpon>NewProjPage_Finish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewProj\NewProjWiz.resx">
+      <DependentUpon>NewProjWiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewStage.resx">
+      <DependentUpon>NewStage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docks\Editor\Browser\Browser.resx">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docks\Editor\Designer\Designer.resx">
+      <DependentUpon>Designer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docks\Editor\Text\TextEditor.resx">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docks\Editor\Text\TextRuler.resx">
+      <DependentUpon>TextRuler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docks\Manage\OverView.resx">
+      <DependentUpon>OverView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docks\Manage\StageProp\StagePropEditor.resx">
+      <DependentUpon>StagePropEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docks\Manage\SolutionExplorer.resx">
+      <DependentUpon>SolutionExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docks\Manage\ToolBox\ToolBox.resx">
+      <DependentUpon>ToolBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docks\Manage\ToolBox\ToolBoxPane.resx">
+      <DependentUpon>ToolBoxPane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RuntimeManager.cs" />
+    <Compile Include="SolutionHolder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plugin_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plugin_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proj_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proj_config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proj_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proj_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proj_test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solution.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_icons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bomb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draw_cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draw_fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draw_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draw_pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draw_square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\html.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\layers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\overview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plugin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plugin_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\side.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prefence.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StageProp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nav_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nav_forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globe256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newproj256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rtm256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resources.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>call "C:\Program Files\Microsoft Visual Studio 9.0\Common7\Tools\vsvars32.bat"
+editbin.exe /NXCOMPAT:NO "$(TargetPath)"
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

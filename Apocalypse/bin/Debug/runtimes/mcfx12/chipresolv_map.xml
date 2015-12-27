@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<chipsdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xdpictpath="[ExtraDraw画像ファイルのパスを記述]">
+  <chips>
+    <chip str="." clr="Black">
+      <datas>
+        <data>
+          <name>空白</name>
+          <desc>何もなし</desc>
+          <loc>0,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="A" clr="Red">
+      <datas>
+        <data>
+          <name>正男</name>
+          <desc>初期位置</desc>
+          <loc>0,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="B" clr="Brown">
+      <datas>
+        <data>
+          <name>メッセージの人1</name>
+          <loc>192,672</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="C" clr="Brown">
+      <datas>
+        <data>
+          <name>メッセージの人2</name>
+          <loc>224,672</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="D" clr="Brown">
+      <datas>
+        <data>
+          <name>ショップ</name>
+          <desc>得点とアイテムの交換が行える</desc>
+          <loc>256,672</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="E" clr="Brown">
+      <datas>
+        <data>
+          <name>説明する人</name>
+          <loc>288,672</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a" clr="Red">
+      <datas>
+        <data>
+          <name>ステージ1</name>
+          <loc>96,704</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b" clr="Red">
+      <datas>
+        <data>
+          <name>ステージ2</name>
+          <loc>128,704</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c" clr="Red">
+      <datas>
+        <data>
+          <name>ステージ3</name>
+          <loc>160,704</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d" clr="Red">
+      <datas>
+        <data>
+          <name>ラストステージ</name>
+          <desc>このステージをクリアするとエンディング</desc>
+          <loc>192,704</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e" clr="Yellow">
+      <datas>
+        <data>
+          <name>人面星1つで開く扉</name>
+          <desc>横の道と接続してください</desc>
+          <loc>96,672</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f" clr="Yellow">
+      <datas>
+        <data>
+          <name>人面星2つで開く扉</name>
+          <desc>横の道と接続してください</desc>
+          <loc>128,672</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="g" clr="Yellow">
+      <datas>
+        <data>
+          <name>人面星3つで開く扉</name>
+          <desc>横の道と接続してください</desc>
+          <loc>160,672</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="h" clr="Yellow">
+      <datas>
+        <data>
+          <name>得点で開く扉</name>
+          <desc>横の道と接続してください</desc>
+          <loc>64,672</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="i" clr="ForestGreen">
+      <datas>
+        <data>
+          <name>リンク土管1</name>
+          <desc>他のWebページへジャンプします</desc>
+          <loc>192,640</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="j" clr="ForestGreen">
+      <datas>
+        <data>
+          <name>リンク土管2</name>
+          <desc>他のWebページへジャンプします</desc>
+          <loc>224,640</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="k" clr="ForestGreen">
+      <datas>
+        <data>
+          <name>リンク土管3</name>
+          <desc>他のWebページへジャンプします</desc>
+          <loc>256,640</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="l" clr="ForestGreen">
+      <datas>
+        <data>
+          <name>リンク土管4</name>
+          <desc>他のWebページへジャンプします</desc>
+          <loc>288,640</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="1" clr="Cyan">
+      <datas>
+        <data>
+          <name>中継地点</name>
+          <loc>0,704</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="2" clr="Cyan">
+      <datas>
+        <data>
+          <name>縦の道</name>
+          <loc>32,704</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="3" clr="Cyan">
+      <datas>
+        <data>
+          <name>横の道</name>
+          <loc>64,704</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+  </chips>
+</chipsdef>

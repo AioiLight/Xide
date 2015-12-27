@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<runtime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>正男コンストラクション FX(Update 12)</name>
+  <author>福田直人</author>
+  <dist>http://www.t3.rim.or.jp/~naoto/naoto.html</dist>
+  <ver>12.0</ver>
+  <req_ver>0.0</req_ver>
+  <req_files>
+    <file>MasaoKani.class</file>
+    <file>MasaoKani.java</file>
+    <file>mc_c.jar</file>
+  </req_files>
+  <res_files>
+    <file>bakuhatu.au</file>
+    <file>clear.au</file>
+    <file>coin.au</file>
+    <file>dosun.au</file>
+    <file>ending.gif</file>
+    <file>fumu.au</file>
+    <file>gameover.au</file>
+    <file>gameover.gif</file>
+    <file>get.au</file>
+    <file>haikei.gif</file>
+    <file>happa.au</file>
+    <file>item.au</file>
+    <file>jump.au</file>
+    <file>kiki.au</file>
+    <file>mapchip.gif</file>
+    <file>mgan.au</file>
+    <file>mizu.au</file>
+    <file>pattern.gif</file>
+    <file>shot.au</file>
+    <file>sjump.au</file>
+    <file>stage1.mid</file>
+    <file>title.gif</file>
+    <file>title.mid</file>
+    <file>tobasu.au</file>
+    <file>yuka.gif</file>
+  </res_files>
+  <propdef>properties.xpd</propdef>
+  <tmplfile>template.html</tmplfile>
+  <defstage>0</defstage>
+  <stages>
+    <stage name="ステージ" limit="4">
+      <ref_prop>stage_max</ref_prop>
+      <ref_prop_value>{0}</ref_prop_value>
+      <layers>
+          <layer name="フォアグラウンドレイヤー">
+            <chipsize>32,32</chipsize>
+            <chipdefine>chipresolv.xml</chipdefine>
+            <def_chippict>pattern.gif</def_chippict>
+            <chippict_ref_prop>filename_pattern</chippict_ref_prop>
+            <outputsplit>2</outputsplit>
+            <outputformat>&lt;param name=&quot;map{1}-{2}{4}&quot; value=&quot;{0}&quot; /&gt;</outputformat>
+          </layer>
+          <layer name="バックグラウンドレイヤー">
+            <chipsize>32,32</chipsize>
+            <chipdefine>chipresolv_layer.xml</chipdefine>
+            <def_chippict>mapchip.gif</def_chippict>
+            <chippict_ref_prop>filename_mapchip</chippict_ref_prop>
+            <outputsplit>2</outputsplit>
+            <outputformat>&lt;param name=&quot;layer{1}-{2}{4}&quot; value=&quot;{0}&quot; /&gt;</outputformat>
+          </layer>
+      </layers>
+    </stage>
+    <stage name="地図" limit="1">
+      <ref_prop>stage_select</ref_prop>
+      <ref_prop_value>1</ref_prop_value>
+      <layers>
+        <layer name="地図">
+          <chipsize>32,32</chipsize>
+          <chipdefine>chipresolv_map.xml</chipdefine>
+          <def_chippict>pattern.gif</def_chippict>
+        </layer>
+      </layers>
+    </stage>
+  </stages>
+</runtime>

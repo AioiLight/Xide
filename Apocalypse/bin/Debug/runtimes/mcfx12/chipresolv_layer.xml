@@ -1,0 +1,2565 @@
+<?xml version="1.0"?>
+<chipsdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xdpictpath="[ExtraDraw画像ファイルのパスを記述]">
+  <chips>
+    <chip str=".." clr="Black">
+      <datas>
+        <data>
+          <loc>0,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="01" clr="White">
+      <datas>
+        <data>
+          <loc>32,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="02" clr="White">
+      <datas>
+        <data>
+          <loc>64,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="03" clr="White">
+      <datas>
+        <data>
+          <loc>96,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="04" clr="White">
+      <datas>
+        <data>
+          <loc>128,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="05" clr="White">
+      <datas>
+        <data>
+          <loc>160,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="06" clr="White">
+      <datas>
+        <data>
+          <loc>192,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="07" clr="White">
+      <datas>
+        <data>
+          <loc>224,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="08" clr="White">
+      <datas>
+        <data>
+          <loc>256,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="09" clr="White">
+      <datas>
+        <data>
+          <loc>288,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="0a" clr="White">
+      <datas>
+        <data>
+          <loc>320,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="0b" clr="White">
+      <datas>
+        <data>
+          <loc>352,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="0c" clr="White">
+      <datas>
+        <data>
+          <loc>384,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="0d" clr="White">
+      <datas>
+        <data>
+          <loc>416,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="0e" clr="White">
+      <datas>
+        <data>
+          <loc>448,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="0f" clr="White">
+      <datas>
+        <data>
+          <loc>480,0</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="10" clr="White">
+      <datas>
+        <data>
+          <loc>0,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="11" clr="White">
+      <datas>
+        <data>
+          <loc>32,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="12" clr="White">
+      <datas>
+        <data>
+          <loc>64,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="13" clr="White">
+      <datas>
+        <data>
+          <loc>96,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="14" clr="White">
+      <datas>
+        <data>
+          <loc>128,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="15" clr="White">
+      <datas>
+        <data>
+          <loc>160,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="16" clr="White">
+      <datas>
+        <data>
+          <loc>192,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="17" clr="White">
+      <datas>
+        <data>
+          <loc>224,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="18" clr="White">
+      <datas>
+        <data>
+          <loc>256,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="19" clr="White">
+      <datas>
+        <data>
+          <loc>288,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="1a" clr="White">
+      <datas>
+        <data>
+          <loc>320,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="1b" clr="White">
+      <datas>
+        <data>
+          <loc>352,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="1c" clr="White">
+      <datas>
+        <data>
+          <loc>384,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="1d" clr="White">
+      <datas>
+        <data>
+          <loc>416,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="1e" clr="White">
+      <datas>
+        <data>
+          <loc>448,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="1f" clr="White">
+      <datas>
+        <data>
+          <loc>480,32</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="20" clr="White">
+      <datas>
+        <data>
+          <loc>0,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="21" clr="White">
+      <datas>
+        <data>
+          <loc>32,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="22" clr="White">
+      <datas>
+        <data>
+          <loc>64,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="23" clr="White">
+      <datas>
+        <data>
+          <loc>96,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="24" clr="White">
+      <datas>
+        <data>
+          <loc>128,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="25" clr="White">
+      <datas>
+        <data>
+          <loc>160,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="26" clr="White">
+      <datas>
+        <data>
+          <loc>192,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="27" clr="White">
+      <datas>
+        <data>
+          <loc>224,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="28" clr="White">
+      <datas>
+        <data>
+          <loc>256,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="29" clr="White">
+      <datas>
+        <data>
+          <loc>288,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="2a" clr="White">
+      <datas>
+        <data>
+          <loc>320,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="2b" clr="White">
+      <datas>
+        <data>
+          <loc>352,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="2c" clr="White">
+      <datas>
+        <data>
+          <loc>384,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="2d" clr="White">
+      <datas>
+        <data>
+          <loc>416,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="2e" clr="White">
+      <datas>
+        <data>
+          <loc>448,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="2f" clr="White">
+      <datas>
+        <data>
+          <loc>480,64</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="30" clr="White">
+      <datas>
+        <data>
+          <loc>0,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="31" clr="White">
+      <datas>
+        <data>
+          <loc>32,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="32" clr="White">
+      <datas>
+        <data>
+          <loc>64,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="33" clr="White">
+      <datas>
+        <data>
+          <loc>96,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="34" clr="White">
+      <datas>
+        <data>
+          <loc>128,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="35" clr="White">
+      <datas>
+        <data>
+          <loc>160,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="36" clr="White">
+      <datas>
+        <data>
+          <loc>192,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="37" clr="White">
+      <datas>
+        <data>
+          <loc>224,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="38" clr="White">
+      <datas>
+        <data>
+          <loc>256,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="39" clr="White">
+      <datas>
+        <data>
+          <loc>288,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="3a" clr="White">
+      <datas>
+        <data>
+          <loc>320,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="3b" clr="White">
+      <datas>
+        <data>
+          <loc>352,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="3c" clr="White">
+      <datas>
+        <data>
+          <loc>384,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="3d" clr="White">
+      <datas>
+        <data>
+          <loc>416,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="3e" clr="White">
+      <datas>
+        <data>
+          <loc>448,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="3f" clr="White">
+      <datas>
+        <data>
+          <loc>480,96</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="40" clr="White">
+      <datas>
+        <data>
+          <loc>0,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="41" clr="White">
+      <datas>
+        <data>
+          <loc>32,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="42" clr="White">
+      <datas>
+        <data>
+          <loc>64,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="43" clr="White">
+      <datas>
+        <data>
+          <loc>96,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="44" clr="White">
+      <datas>
+        <data>
+          <loc>128,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="45" clr="White">
+      <datas>
+        <data>
+          <loc>160,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="46" clr="White">
+      <datas>
+        <data>
+          <loc>192,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="47" clr="White">
+      <datas>
+        <data>
+          <loc>224,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="48" clr="White">
+      <datas>
+        <data>
+          <loc>256,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="49" clr="White">
+      <datas>
+        <data>
+          <loc>288,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="4a" clr="White">
+      <datas>
+        <data>
+          <loc>320,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="4b" clr="White">
+      <datas>
+        <data>
+          <loc>352,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="4c" clr="White">
+      <datas>
+        <data>
+          <loc>384,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="4d" clr="White">
+      <datas>
+        <data>
+          <loc>416,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="4e" clr="White">
+      <datas>
+        <data>
+          <loc>448,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="4f" clr="White">
+      <datas>
+        <data>
+          <loc>480,128</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="50" clr="White">
+      <datas>
+        <data>
+          <loc>0,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="51" clr="White">
+      <datas>
+        <data>
+          <loc>32,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="52" clr="White">
+      <datas>
+        <data>
+          <loc>64,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="53" clr="White">
+      <datas>
+        <data>
+          <loc>96,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="54" clr="White">
+      <datas>
+        <data>
+          <loc>128,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="55" clr="White">
+      <datas>
+        <data>
+          <loc>160,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="56" clr="White">
+      <datas>
+        <data>
+          <loc>192,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="57" clr="White">
+      <datas>
+        <data>
+          <loc>224,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="58" clr="White">
+      <datas>
+        <data>
+          <loc>256,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="59" clr="White">
+      <datas>
+        <data>
+          <loc>288,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="5a" clr="White">
+      <datas>
+        <data>
+          <loc>320,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="5b" clr="White">
+      <datas>
+        <data>
+          <loc>352,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="5c" clr="White">
+      <datas>
+        <data>
+          <loc>384,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="5d" clr="White">
+      <datas>
+        <data>
+          <loc>416,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="5e" clr="White">
+      <datas>
+        <data>
+          <loc>448,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="5f" clr="White">
+      <datas>
+        <data>
+          <loc>480,160</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="60" clr="White">
+      <datas>
+        <data>
+          <loc>0,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="61" clr="White">
+      <datas>
+        <data>
+          <loc>32,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="62" clr="White">
+      <datas>
+        <data>
+          <loc>64,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="63" clr="White">
+      <datas>
+        <data>
+          <loc>96,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="64" clr="White">
+      <datas>
+        <data>
+          <loc>128,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="65" clr="White">
+      <datas>
+        <data>
+          <loc>160,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="66" clr="White">
+      <datas>
+        <data>
+          <loc>192,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="67" clr="White">
+      <datas>
+        <data>
+          <loc>224,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="68" clr="White">
+      <datas>
+        <data>
+          <loc>256,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="69" clr="White">
+      <datas>
+        <data>
+          <loc>288,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="6a" clr="White">
+      <datas>
+        <data>
+          <loc>320,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="6b" clr="White">
+      <datas>
+        <data>
+          <loc>352,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="6c" clr="White">
+      <datas>
+        <data>
+          <loc>384,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="6d" clr="White">
+      <datas>
+        <data>
+          <loc>416,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="6e" clr="White">
+      <datas>
+        <data>
+          <loc>448,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="6f" clr="White">
+      <datas>
+        <data>
+          <loc>480,192</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="70" clr="White">
+      <datas>
+        <data>
+          <loc>0,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="71" clr="White">
+      <datas>
+        <data>
+          <loc>32,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="72" clr="White">
+      <datas>
+        <data>
+          <loc>64,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="73" clr="White">
+      <datas>
+        <data>
+          <loc>96,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="74" clr="White">
+      <datas>
+        <data>
+          <loc>128,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="75" clr="White">
+      <datas>
+        <data>
+          <loc>160,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="76" clr="White">
+      <datas>
+        <data>
+          <loc>192,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="77" clr="White">
+      <datas>
+        <data>
+          <loc>224,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="78" clr="White">
+      <datas>
+        <data>
+          <loc>256,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="79" clr="White">
+      <datas>
+        <data>
+          <loc>288,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="7a" clr="White">
+      <datas>
+        <data>
+          <loc>320,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="7b" clr="White">
+      <datas>
+        <data>
+          <loc>352,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="7c" clr="White">
+      <datas>
+        <data>
+          <loc>384,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="7d" clr="White">
+      <datas>
+        <data>
+          <loc>416,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="7e" clr="White">
+      <datas>
+        <data>
+          <loc>448,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="7f" clr="White">
+      <datas>
+        <data>
+          <loc>480,224</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="80" clr="White">
+      <datas>
+        <data>
+          <loc>0,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="81" clr="White">
+      <datas>
+        <data>
+          <loc>32,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="82" clr="White">
+      <datas>
+        <data>
+          <loc>64,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="83" clr="White">
+      <datas>
+        <data>
+          <loc>96,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="84" clr="White">
+      <datas>
+        <data>
+          <loc>128,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="85" clr="White">
+      <datas>
+        <data>
+          <loc>160,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="86" clr="White">
+      <datas>
+        <data>
+          <loc>192,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="87" clr="White">
+      <datas>
+        <data>
+          <loc>224,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="88" clr="White">
+      <datas>
+        <data>
+          <loc>256,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="89" clr="White">
+      <datas>
+        <data>
+          <loc>288,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="8a" clr="White">
+      <datas>
+        <data>
+          <loc>320,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="8b" clr="White">
+      <datas>
+        <data>
+          <loc>352,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="8c" clr="White">
+      <datas>
+        <data>
+          <loc>384,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="8d" clr="White">
+      <datas>
+        <data>
+          <loc>416,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="8e" clr="White">
+      <datas>
+        <data>
+          <loc>448,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="8f" clr="White">
+      <datas>
+        <data>
+          <loc>480,256</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="90" clr="White">
+      <datas>
+        <data>
+          <loc>0,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="91" clr="White">
+      <datas>
+        <data>
+          <loc>32,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="92" clr="White">
+      <datas>
+        <data>
+          <loc>64,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="93" clr="White">
+      <datas>
+        <data>
+          <loc>96,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="94" clr="White">
+      <datas>
+        <data>
+          <loc>128,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="95" clr="White">
+      <datas>
+        <data>
+          <loc>160,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="96" clr="White">
+      <datas>
+        <data>
+          <loc>192,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="97" clr="White">
+      <datas>
+        <data>
+          <loc>224,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="98" clr="White">
+      <datas>
+        <data>
+          <loc>256,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="99" clr="White">
+      <datas>
+        <data>
+          <loc>288,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="9a" clr="White">
+      <datas>
+        <data>
+          <loc>320,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="9b" clr="White">
+      <datas>
+        <data>
+          <loc>352,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="9c" clr="White">
+      <datas>
+        <data>
+          <loc>384,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="9d" clr="White">
+      <datas>
+        <data>
+          <loc>416,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="9e" clr="White">
+      <datas>
+        <data>
+          <loc>448,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="9f" clr="White">
+      <datas>
+        <data>
+          <loc>480,288</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a0" clr="White">
+      <datas>
+        <data>
+          <loc>0,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a1" clr="White">
+      <datas>
+        <data>
+          <loc>32,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a2" clr="White">
+      <datas>
+        <data>
+          <loc>64,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a3" clr="White">
+      <datas>
+        <data>
+          <loc>96,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a4" clr="White">
+      <datas>
+        <data>
+          <loc>128,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a5" clr="White">
+      <datas>
+        <data>
+          <loc>160,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a6" clr="White">
+      <datas>
+        <data>
+          <loc>192,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a7" clr="White">
+      <datas>
+        <data>
+          <loc>224,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a8" clr="White">
+      <datas>
+        <data>
+          <loc>256,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="a9" clr="White">
+      <datas>
+        <data>
+          <loc>288,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="aa" clr="White">
+      <datas>
+        <data>
+          <loc>320,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ab" clr="White">
+      <datas>
+        <data>
+          <loc>352,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ac" clr="White">
+      <datas>
+        <data>
+          <loc>384,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ad" clr="White">
+      <datas>
+        <data>
+          <loc>416,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ae" clr="White">
+      <datas>
+        <data>
+          <loc>448,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="af" clr="White">
+      <datas>
+        <data>
+          <loc>480,320</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b0" clr="White">
+      <datas>
+        <data>
+          <loc>0,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b1" clr="White">
+      <datas>
+        <data>
+          <loc>32,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b2" clr="White">
+      <datas>
+        <data>
+          <loc>64,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b3" clr="White">
+      <datas>
+        <data>
+          <loc>96,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b4" clr="White">
+      <datas>
+        <data>
+          <loc>128,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b5" clr="White">
+      <datas>
+        <data>
+          <loc>160,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b6" clr="White">
+      <datas>
+        <data>
+          <loc>192,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b7" clr="White">
+      <datas>
+        <data>
+          <loc>224,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b8" clr="White">
+      <datas>
+        <data>
+          <loc>256,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="b9" clr="White">
+      <datas>
+        <data>
+          <loc>288,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ba" clr="White">
+      <datas>
+        <data>
+          <loc>320,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="bb" clr="White">
+      <datas>
+        <data>
+          <loc>352,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="bc" clr="White">
+      <datas>
+        <data>
+          <loc>384,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="bd" clr="White">
+      <datas>
+        <data>
+          <loc>416,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="be" clr="White">
+      <datas>
+        <data>
+          <loc>448,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="bf" clr="White">
+      <datas>
+        <data>
+          <loc>480,352</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c0" clr="White">
+      <datas>
+        <data>
+          <loc>0,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c1" clr="White">
+      <datas>
+        <data>
+          <loc>32,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c2" clr="White">
+      <datas>
+        <data>
+          <loc>64,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c3" clr="White">
+      <datas>
+        <data>
+          <loc>96,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c4" clr="White">
+      <datas>
+        <data>
+          <loc>128,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c5" clr="White">
+      <datas>
+        <data>
+          <loc>160,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c6" clr="White">
+      <datas>
+        <data>
+          <loc>192,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c7" clr="White">
+      <datas>
+        <data>
+          <loc>224,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c8" clr="White">
+      <datas>
+        <data>
+          <loc>256,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="c9" clr="White">
+      <datas>
+        <data>
+          <loc>288,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ca" clr="White">
+      <datas>
+        <data>
+          <loc>320,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="cb" clr="White">
+      <datas>
+        <data>
+          <loc>352,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="cc" clr="White">
+      <datas>
+        <data>
+          <loc>384,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="cd" clr="White">
+      <datas>
+        <data>
+          <loc>416,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ce" clr="White">
+      <datas>
+        <data>
+          <loc>448,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="cf" clr="White">
+      <datas>
+        <data>
+          <loc>480,384</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d0" clr="White">
+      <datas>
+        <data>
+          <loc>0,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d1" clr="White">
+      <datas>
+        <data>
+          <loc>32,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d2" clr="White">
+      <datas>
+        <data>
+          <loc>64,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d3" clr="White">
+      <datas>
+        <data>
+          <loc>96,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d4" clr="White">
+      <datas>
+        <data>
+          <loc>128,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d5" clr="White">
+      <datas>
+        <data>
+          <loc>160,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d6" clr="White">
+      <datas>
+        <data>
+          <loc>192,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d7" clr="White">
+      <datas>
+        <data>
+          <loc>224,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d8" clr="White">
+      <datas>
+        <data>
+          <loc>256,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="d9" clr="White">
+      <datas>
+        <data>
+          <loc>288,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="da" clr="White">
+      <datas>
+        <data>
+          <loc>320,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="db" clr="White">
+      <datas>
+        <data>
+          <loc>352,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="dc" clr="White">
+      <datas>
+        <data>
+          <loc>384,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="dd" clr="White">
+      <datas>
+        <data>
+          <loc>416,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="de" clr="White">
+      <datas>
+        <data>
+          <loc>448,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="df" clr="White">
+      <datas>
+        <data>
+          <loc>480,416</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e0" clr="White">
+      <datas>
+        <data>
+          <loc>0,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e1" clr="White">
+      <datas>
+        <data>
+          <loc>32,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e2" clr="White">
+      <datas>
+        <data>
+          <loc>64,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e3" clr="White">
+      <datas>
+        <data>
+          <loc>96,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e4" clr="White">
+      <datas>
+        <data>
+          <loc>128,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e5" clr="White">
+      <datas>
+        <data>
+          <loc>160,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e6" clr="White">
+      <datas>
+        <data>
+          <loc>192,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e7" clr="White">
+      <datas>
+        <data>
+          <loc>224,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e8" clr="White">
+      <datas>
+        <data>
+          <loc>256,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="e9" clr="White">
+      <datas>
+        <data>
+          <loc>288,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ea" clr="White">
+      <datas>
+        <data>
+          <loc>320,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="eb" clr="White">
+      <datas>
+        <data>
+          <loc>352,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ec" clr="White">
+      <datas>
+        <data>
+          <loc>384,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ed" clr="White">
+      <datas>
+        <data>
+          <loc>416,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ee" clr="White">
+      <datas>
+        <data>
+          <loc>448,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ef" clr="White">
+      <datas>
+        <data>
+          <loc>480,448</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f0" clr="White">
+      <datas>
+        <data>
+          <loc>0,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f1" clr="White">
+      <datas>
+        <data>
+          <loc>32,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f2" clr="White">
+      <datas>
+        <data>
+          <loc>64,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f3" clr="White">
+      <datas>
+        <data>
+          <loc>96,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f4" clr="White">
+      <datas>
+        <data>
+          <loc>128,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f5" clr="White">
+      <datas>
+        <data>
+          <loc>160,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f6" clr="White">
+      <datas>
+        <data>
+          <loc>192,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f7" clr="White">
+      <datas>
+        <data>
+          <loc>224,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f8" clr="White">
+      <datas>
+        <data>
+          <loc>256,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="f9" clr="White">
+      <datas>
+        <data>
+          <loc>288,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="fa" clr="White">
+      <datas>
+        <data>
+          <loc>320,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="fb" clr="White">
+      <datas>
+        <data>
+          <loc>352,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="fc" clr="White">
+      <datas>
+        <data>
+          <loc>384,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="fd" clr="White">
+      <datas>
+        <data>
+          <loc>416,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="fe" clr="White">
+      <datas>
+        <data>
+          <loc>448,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+    <chip str="ff" clr="White">
+      <datas>
+        <data>
+          <loc>480,480</loc>
+          <size>0,0</size>
+          <center>0,0</center>
+        </data>
+      </datas>
+      <Color />
+    </chip>
+  </chips>
+</chipsdef>
